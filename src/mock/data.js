@@ -51,7 +51,7 @@ export const projectsData = [
     title: 'Movie Seat Booking App',
     info: 'An application made by using JavaScript, CSS, HTML',
     info2: '',
-    url: '',
+    url: 'https://movie-seat.netlify.app/',
     repo: 'https://github.com/HarshVardhan22/Moive-ticket-booking.git', // if no repo, the button will not show up
   },
   {

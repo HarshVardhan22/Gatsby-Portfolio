@@ -11,16 +11,19 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Harshvardhan',
-  subtitle: 'I am a Web Developer & an Electronics Engineer',
+  subtitle: 'I am a Full Stack Web Developer & an Electronics Engineer',
   cta: 'React - JavaScript - Node - MongoDB - HTML - CSS - Bootstrap',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profileImg.jpg',
-  paragraphOne: 'I love applying responsive design principles and watching my web pages shrink into mobile screens and still look amazing. My specialities include quickly learning new skills and programming languages.',
-  paragraphTwo: 'I play guitar and I find a beautiful crossover between my software and my music which pursuits the challenge of intellect, creativity, organization, sequential processing and problem solving.',
-  paragraphThree: 'This is what keeps me up at night , a never ending thirst to create beautiful, powerful things and share them with the world.',
+  paragraphOne:
+    'I love applying responsive design principles and watching my web pages shrink into mobile screens and still look amazing.',
+  paragraphTwo:
+    'I play guitar and I find a beautiful crossover between my software and my music which pursuits the challenge of intellect, creativity, organization, sequential processing and problem solving.',
+  paragraphThree:
+    'This is what keeps me up at night , a never ending thirst to create beautiful, powerful things and share them with the world.',
   resume: '', // if no resume, the button will not show up
 };
 
@@ -35,7 +38,7 @@ export const projectsData = [
     url: 'https://tetristetris.netlify.app/',
     repo: 'https://github.com/HarshVardhan22/Tetris.git', // if no repo, the button will not show up
   },
-   {
+  {
     id: nanoid(),
     img: 'tic-tac-toe.png',
     title: 'Tic-Tac-Toe App',
@@ -59,11 +62,11 @@ export const projectsData = [
     img: 'todoList.png',
     title: 'To-Do App',
     info: 'An application made by using React.js',
-    info2: 'The app has an option to switch themes and it is implemented by using the concept of Context.api',
+    info2:
+      'The app has an option to switch themes and it is implemented by using the concept of Context.api',
     url: 'https://themed-todo.netlify.app/',
     repo: 'https://github.com/HarshVardhan22/Moive-ticket-booking.git',
-  }
- 
+  },
 ];
 
 // CONTACT DATA
@@ -76,7 +79,6 @@ export const contactData = {
 // FOOTER DATA
 export const footerData = {
   networks: [
-    
     {
       id: nanoid(),
       name: 'linkedin',
@@ -97,7 +99,7 @@ export const footerData = {
       id: nanoid(),
       name: 'facebook',
       url: 'https://www.facebook.com/harsh.sinha.7146/',
-    }
+    },
   ],
 };
 

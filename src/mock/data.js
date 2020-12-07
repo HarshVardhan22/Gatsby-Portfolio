@@ -40,6 +40,17 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'article.png',
+    title: 'Article Fetch App',
+    info: 'An application made by using React.js',
+    info2:
+      'It uses the concept of Context API to use States between different components, React Routers to render different objects without reloading the webpage, Fetch API to gather data for the given purpose',
+    url: 'https://article-it.netlify.app/',
+    repo: 'https://github.com/HarshVardhan22/React-Router.git', // if no repo, the button will not show up
+  },
+
+  {
+    id: nanoid(),
     img: 'tic-tac-toe.png',
     title: 'Tic-Tac-Toe App',
     info: 'An application made by using React.js',

@@ -31,15 +31,6 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'tetris.png',
-    title: 'Tetris App',
-    info: 'An application made by using JavaScript, CSS, HTML',
-    info2: 'It has on-display controls that pop when used on mobile devices',
-    url: 'https://tetristetris.netlify.app/',
-    repo: 'https://github.com/HarshVardhan22/Tetris.git', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
     img: 'article.png',
     title: 'Article Fetch App',
     info: 'An application made by using React.js',
@@ -47,6 +38,27 @@ export const projectsData = [
       'It uses the concept of Context API to use States between different components, React Routers to render different objects without reloading the webpage, Fetch API to gather data for the given purpose',
     url: 'https://article-it.netlify.app/',
     repo: 'https://github.com/HarshVardhan22/React-Router.git', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'tetris.png',
+    title: 'Tetris App',
+    info: 'An application made by using JavaScript, CSS, HTML',
+    info2:
+      'It uses the concept of "@media-query" is CSS which makes the webapp responsive so that is shows the the on-display controls only when used on mobile devices',
+    url: 'https://tetristetris.netlify.app/',
+    repo: 'https://github.com/HarshVardhan22/Tetris.git', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'cards.png',
+    title: 'Cards Of Memory- App',
+    info:
+      'An application made by using React.Js. Its a memory game in which the set of cards will hide their value themselves after certain time and the player has to guess it. ',
+    info2:
+      'It is made by using the principle of Context API to share states among different components of react, "useEffect" which is used used to trigger a render on a particular change, "useState" and "props" to alter and share the data dynamically.',
+    url: 'https://cardsofmemory.netlify.app/',
+    repo: 'https://github.com/HarshVardhan22/card-game.git', // if no repo, the button will not show up
   },
 
   {
